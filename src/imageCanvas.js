@@ -28,7 +28,7 @@ class Canvas extends React.Component {
   drawCanvas(){
     //get properties from parent
     const cellHeight=2;
-    const cellWidth=4;
+    const cellWidth=2;
     //get image colors
     const imageMatrixRows = this.props.imageData;
     const imageCanvas = this.imgCanvas.current;
