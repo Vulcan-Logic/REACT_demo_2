@@ -64,7 +64,6 @@ class Canvas extends React.Component {
         });
         canvasCont.save();
         rowCtr++;
-        console.log("rendering");
     });
   }
 
